@@ -13,14 +13,7 @@ class Socket extends React.Component {
   constructor(props, context) {
     super(props, context);
 
-    var sessionId = cookies.load('this.sid');
-
-    this.socket = socketCluster.create({
-      hostname: 'localhost',
-      secure: false,
-      port: 8000,
-      sessionId: sessionId 
-    });
+    this.socket = socketCluster.create(props.options);
 
     this.socket.status = 'initialized';
 
