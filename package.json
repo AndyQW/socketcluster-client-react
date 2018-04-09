@@ -1,0 +1,28 @@
+{
+  "name": "socketcluster-client-react",
+  "version": "1.0.0",
+  "description": "socketcluster client component for react",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndyQW/socketcluster-client-react.git"
+  },
+  "keywords": [
+    "socketcluster",
+    "react"
+  ],
+  "author": "Andy Wang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AndyQW/socketcluster-client-react/issues"
+  },
+  "homepage": "https://github.com/AndyQW/socketcluster-client-react#readme",
+  "dependencies": {
+    "prop-types": "^15.6.1",
+    "react": "^16.3.1",
+    "socketcluster-client": "^11.0.0"
+  }
+}
