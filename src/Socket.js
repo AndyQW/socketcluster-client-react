@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import socketCluster from 'socketcluster-client'
 
 import { warning, debug } from './Utils';
-import cookies from 'react-cookies';
 
 class Socket extends React.Component {
   getChildContext() {
