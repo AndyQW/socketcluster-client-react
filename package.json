@@ -1,6 +1,6 @@
 {
   "name": "socketcluster-client-react",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "socketcluster client component for react",
   "main": "lib/index.js",
   "scripts": {
