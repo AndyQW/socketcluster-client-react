@@ -18,6 +18,9 @@ class Socket extends React.Component {
 
     this.socket.on('connect', (data) => {
       this.socket.status = 'connected';
+      if ( props.options.onConnected) {
+        props.options.onConnected(this.socket, data);
+      }
       debug('connected');
     });
 
